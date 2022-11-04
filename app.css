@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+
 *, *::after, *::before {
     box-sizing: border-box;
 }
@@ -8,6 +10,7 @@ body {
     align-items: center;
     color: rgb(255, 255, 255);
     background-color: rgb(127, 137, 137);
+    font-family: 'Kanit', sans-serif;
 }
 
 .container {
@@ -16,4 +19,13 @@ body {
     background-color: rgb(67, 64, 64);
     text-align: center;
     border-radius: 20px;
+}
+
+#submit-btn {
+    width: 6rem;
+    height: 2rem;
+    font-family: 'Kanit', sans-serif;
+    border: none;
+    letter-spacing: 2px;
+    
 }
